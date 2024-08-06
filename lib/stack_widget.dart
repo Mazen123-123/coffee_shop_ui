@@ -17,9 +17,7 @@ class stack_widget extends StatelessWidget {
           upper_part_widget(),
           Positioned(
             child: banner_widget(),
-            bottom: -80,
-            right: 25,
-            left: 25,
+            bottom: -40,
           ),
         ],
       ),

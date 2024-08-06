@@ -15,11 +15,11 @@ class home_view extends StatelessWidget {
           children: [
             const stack_widget(),
             const SizedBox(
-              height: 40,
+              height: 10,
             ),
             const Grid_category(),
             Container(
-              height: 280,
+              height: 240,
               child: GridView.count(
                 crossAxisCount: 2,
                 mainAxisSpacing: 10,
@@ -40,7 +40,7 @@ class home_view extends StatelessWidget {
                   children: [
                     Image.asset(
                       'assets/images/Home.png',
-                      height: 40,
+                      height: 30,
                     ),
                     const SizedBox(
                       height: 3,
@@ -55,15 +55,15 @@ class home_view extends StatelessWidget {
                 ),
                 Image.asset(
                   'assets/images/Icon (1).png',
-                  height: 40,
+                  height: 30,
                 ),
                 Image.asset(
                   'assets/images/Icon (2).png',
-                  height: 40,
+                  height: 30,
                 ),
                 Image.asset(
                   'assets/images/Icon (3).png',
-                  height: 40,
+                  height: 30,
                 ),
               ],
             )

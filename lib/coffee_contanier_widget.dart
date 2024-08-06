@@ -17,7 +17,7 @@ class CoffeeContainer extends StatelessWidget {
         children: [
           Container(
             width: 160,
-            height: 100,
+            height: 80,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8),
               image: DecorationImage(
